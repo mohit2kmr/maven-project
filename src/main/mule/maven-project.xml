@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="maven-projectFlow" doc:id="2201324c-ece2-4f41-9125-ec2ebdb58b17" >
 		<http:listener doc:name="Listener" doc:id="13703241-0a35-4f90-87ab-a92e707db631" config-ref="HTTP_Listener_config" path="/test"/>
-		<set-payload value="CICD Project" doc:name="Set Payload" doc:id="a45061d4-6bf7-4613-81a7-56de79d20b7c" />
+		<set-payload value="CICD Project Updated" doc:name="Set Payload" doc:id="a45061d4-6bf7-4613-81a7-56de79d20b7c" />
 		<logger level="INFO" doc:name="Logger" doc:id="ac1e65fb-6218-41ce-8e43-3bad0d0c65c6" />
 	</flow>
 </mule>
